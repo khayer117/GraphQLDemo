@@ -1,0 +1,32 @@
+# Build output
+bin/
+obj/
+
+# SQLite database file (auto-generated on startup)
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+*.user
+*.suo
+.vs/
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET local tools
+.config/dotnet-tools.json
+
+# Publish output
+publish/
